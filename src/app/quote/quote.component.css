@@ -7,3 +7,12 @@ h1{
     color: darkgreen;
     
 }
+body {
+    background-image:url(https://cdn.pixabay.com/photo/2015/09/27/15/28/moonshine-960797_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: blanchedalmond;
+    border: 1px solid;
+    padding: 70px;
+    padding:20px;   
+}
