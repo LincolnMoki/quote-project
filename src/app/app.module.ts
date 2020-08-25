@@ -11,6 +11,7 @@ import { PostTimePipe } from './post-time.pipe';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { MomentModule } from 'ngx-moment';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
+import { HighlightsDirective } from './highlights.directive';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { QuoteDetailsComponent } from './quote-details/quote-details.component';
     HighlightDirective,
     PostTimePipe,
     QuoteFormComponent,
-    QuoteDetailsComponent
+    QuoteDetailsComponent,
+    HighlightsDirective
   ],
   imports: [
     BrowserModule,
