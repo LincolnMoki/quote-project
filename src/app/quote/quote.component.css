@@ -22,3 +22,10 @@ body {
     color: rgb(38, 190, 24);
         
 }
+
+#jumb{
+    background-image: url(https://cdn.pixabay.com/photo/2016/12/01/14/02/light-bulbs-1875384__340.jpg);
+    border-radius: 30px;
+    background-color:#b2d1f1;
+    
+   }
