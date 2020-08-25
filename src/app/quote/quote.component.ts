@@ -13,6 +13,23 @@ export class QuoteComponent implements OnInit {
     new Quote(' Seneca','It is more fitting for a man to laugh at life than to lament over it',new Date(1918,6,12)),
     new Quote(' Arthur Schopenhauer','The two enemies of human happiness are pain and boredom',new Date(1919,10,18)),
     ];
+    addNewQuote(quote){
+      quote.completeDate = new Date(quote.completeDate)
+      this.quotes.push(quote)
+    }
+    displayDetails(index){
+      this.quotes[index].showQuotes = !this.quotes[index].showQuotes;
+    }
+    deleteQuote(isComplete, index){
+      if(isComplete){
+        let toDelete=confirm('Are you sure you wanna delete'+ this.quotes[index] .inspquote +'?')
+    
+        if(toDelete){
+          this.quotes.splice(index,1)
+        }
+      }
+    
+    }
 
   constructor() { }
   './quote-detail/quote-detail.component'
