@@ -5,20 +5,16 @@ import { FormsModule} from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { QuoteComponent } from './quote/quote.component';
-import { QuoteDetailComponent } from './quote-detail/quote-detail.component';
-import { HighlightDirective } from './highlight.directive';
+import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { PostTimePipe } from './post-time.pipe';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { MomentModule } from 'ngx-moment';
-import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { HighlightsDirective } from './highlights.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
     QuoteComponent,
-    QuoteDetailComponent,
-    HighlightDirective,
     PostTimePipe,
     QuoteFormComponent,
     QuoteDetailsComponent,
@@ -26,7 +22,7 @@ import { HighlightsDirective } from './highlights.directive';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
     FormsModule,
     MomentModule
   ],

@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter,Output,Input } from '@angular/core';
+import{ Quote} from '../quote'
+import { from } from 'rxjs'
 
 @Component({
   selector: 'app-quote-details',
