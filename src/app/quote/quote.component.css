@@ -16,3 +16,9 @@ body {
     padding: 70px;
     padding:20px;   
 }
+
+#new{
+    background-color:inherit;
+    color: rgb(38, 190, 24);
+        
+}
